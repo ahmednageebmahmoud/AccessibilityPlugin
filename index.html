@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>title</title>
+    <meta name="description" content="An interactive getting started guide for Brackets.">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/codeViewer.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <!--Consume Plug For Devolpment-->
+
+    <!--Init Accessibility Plugin-->
+
+    <!-- Optional Config 
+    <script>
+        //Token
+        pluginConfig={
+        token : {
+                highlightlinks: "Highlight Links",
+                reverseColors: "Reverse Colors",
+                blackAndWhite: "Black And White",
+                textTransform: 'Text Transform',
+                showAllLinks: 'Show All Links',
+                naturalColor: "Natural Color",
+                fontReadable: 'Font Readable',
+                textSpacing: "Text Spacing",
+                readingMode: "Reading Mode",
+                bigCursor: "Big Cursor",
+                sharePage: "Share Page",
+                wordpress: "Wordpress",
+                messenger: "Messenger",
+                fontSize: "Font Size",
+                facebook: "Facebook",
+                whataApp: "WhataApp",
+                linkedin: "Linkedin",
+                telegram: "Telegram",
+                blogger: "Blogger",
+                twitter: "Twitter",
+                reddit: "Reddit",
+                gmail: "Gmail",
+                email: "Email",
+            },
+            //Color
+        color : "#131025", //or any color code
+        //Position
+        position : "bottom_left", //or "bottom_right" or "top_left" or "top_left"
+  };
+  </script>
+-->
+    <script src="temp.js"></script>
+    <script src="./accessibilityPlugin/js/acs.plugin.js"></script>
+    <!-- <script src="../accessibilityPluginCompressed/allCode.js"></script> -->
+    <!-- <script src="https://ahmednageebmahmoud.github.io/AccessibilityPlugin/js/accessibilityPlugin.js"></script> -->
+    <!-- <script src="./accessibilityPluginRar/allCode.min.js"></script> -->
+    <!-- <script src="./accessibilityPluginRar/allCode.min.encode.js"></script> -->
+</head>
+
+<body class="container">
+
+
+    <!-- Start Exmaple -->
+
+    <div class="row ">
+        <div class="col-12">
+            <h3>Positions:</h3>
+        </div>
+        <div class="col-12 row">
+            <button class="col btn btn-outline-dark" onclick="updatePositionTo(this,'top_left')">Top Left</button>
+            <button class="col btn btn-outline-dark" onclick="updatePositionTo(this,'top_right')">Top Right</button>
+            <button class="col btn btn-outline-dark active" onclick="updatePositionTo(this,'bottom_left')">Bottom Left</button>
+            <button class="col btn btn-outline-dark" onclick="updatePositionTo(this,'bottom_right')">Bottom Right</button>
+        </div>
+        <div class="col-12">
+            <h3>Exmaple:</h3>
+        </div>
+        <div class="col-6">
+            <p class="text-justify">
+                <span class="red"> Lorem Ipsum  is simply dummy text</span> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                it to make a type specimen book. It has survived not only five centuries, but also the <a href="https://web.whatsapp.com/"> leap</a> into electronic typesetting, <span class="red">remaining</span> essentially unchanged. It was popularised
+                in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div class="text-right"><a href="https://web.whatsapp.com/"> Show More</a></div>
+            </p>
+        </div>
+        <div class="col-6">
+            <p class="text-justify">
+                <span class="red"> Lorem Ipsum is simply dummy text</span> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, <span class="red">remaining</span> essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div class="text-right"><a href="https://Facebook.com/"> Show More</a></div>
+            </p>
+        </div>
+        <div class="col-6">
+            <p class="text-justify">
+                <span class="red"> Lorem Ipsum  is simply dummy text</span> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                it to make a type specimen book. It has survived not only five centuries, but also the <a href="https://web.whatsapp.com/"> leap</a> into electronic typesetting, <span class="red">remaining</span> essentially unchanged. It was popularised
+                in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div class="text-right"><a href="https://web.whatsapp.com/"> Show More</a></div>
+            </p>
+        </div>
+        <div class="col-6">
+            <p class="text-justify">
+                <span class="red"> Lorem Ipsum is simply dummy text</span> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, <span class="red">remaining</span> essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div class="text-right"><a href="https://Facebook.com/"> Show More</a></div>
+            </p>
+        </div>
+        <div class="col-6">
+            <p class="text-justify">
+                <span class="red"> Lorem Ipsum  is simply dummy text</span> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                it to make a type specimen book. It has survived not only five centuries, but also the <a href="https://web.whatsapp.com/"> leap</a> into electronic typesetting, <span class="red">remaining</span> essentially unchanged. It was popularised
+                in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div class="text-right"><a href="https://web.whatsapp.com/"> Show More</a></div>
+            </p>
+        </div>
+        <div class="col-6">
+            <p class="text-justify">
+                <span class="red"> Lorem Ipsum is simply dummy text</span> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, <span class="red">remaining</span> essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div class="text-right"><a href="https://Facebook.com/"> Show More</a></div>
+            </p>
+        </div>
+    </div>
+    <!--/End Exmaple -->
+
+
+    <!--Jquery-->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <!--BootstrapJs-->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script>
+        function updatePositionTo(btn, clasName) {
+            let btnPlugin = document.getElementById('pluginBtnOpen');
+            let popPlugin = document.getElementById('pluginPopup');
+
+            btnPlugin.classList.remove('top_right');
+            btnPlugin.classList.remove('bottom_right');
+            btnPlugin.classList.remove('top_left');
+            btnPlugin.classList.remove('bottom_left');
+
+            popPlugin.classList.remove('top_right');
+            popPlugin.classList.remove('bottom_right');
+            popPlugin.classList.remove('top_left');
+            popPlugin.classList.remove('bottom_left');
+
+            popPlugin.classList.add(clasName);
+            btnPlugin.classList.add(clasName);
+
+            //Remove Active Class
+            document.querySelector('.active').className = "col btn btn-outline-dark";
+            btn.className = "col btn btn-outline-dark active";
+        }
+    </script>
+
+</body>
+
+</html>
