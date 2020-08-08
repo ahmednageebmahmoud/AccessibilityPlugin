@@ -59,6 +59,19 @@
 
 <body class="container p-5">
 
+<iframe  id="myFrame" width="560" height="315" src="https://www.youtube.com/embed/Z0sLV_MknHc?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Click the "Tryit" button to hide the first H1 element in the iframe (another document).</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var iframe = document.getElementById("myFrame");
+  var elmnt = iframe.contentWindow.document.getElementsByTagName("H1")[0];
+  elmnt.style.display = "none";
+}
+</script>
 
     <!-- Start Exmaple -->
     <div class="jumbotron jumbotron-fluid">
